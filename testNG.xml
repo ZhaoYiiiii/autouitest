@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Simple HTML-XML Suite" >
+    <listeners>
+        <listener class-name="com.frame.demo.report.ExtentTestngReporterListener"></listener>
+    </listeners>
+    <test name="Simple HTML-XML test">
+        <classes>
+            <class name="com.frame.demo.test.TestLoginPage"></class>
+            <class name="com.frame.demo.test.TestUploadInventoryPage"></class>
+        </classes>
+    </test>
+</suite>

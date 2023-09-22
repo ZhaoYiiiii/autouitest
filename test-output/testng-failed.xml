@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Simple HTML-XML Suite]">
+  <listeners>
+    <listener class-name="com.frame.demo.report.ExtentTestngReporterListener"/>
+  </listeners>
+  <test thread-count="5" name="Simple HTML-XML test(failed)">
+    <classes>
+      <class name="com.frame.demo.test.TestUploadInventoryPage">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.frame.demo.test.TestUploadInventoryPage -->
+      <class name="com.frame.demo.test.TestLoginPage">
+        <methods>
+          <include name="toLoginSuccessed"/>
+        </methods>
+      </class> <!-- com.frame.demo.test.TestLoginPage -->
+    </classes>
+  </test> <!-- Simple HTML-XML test(failed) -->
+</suite> <!-- Failed suite [Simple HTML-XML Suite] -->
